@@ -34,6 +34,10 @@
 		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 		<sonar.jacoco.reportPath>${project.basedir}/../target/jacoco.exec</sonar.jacoco.reportPath>
 		<sonar.language>java</sonar.language>
+		
+  <sonar.projectKey>bart-blommaerts_java-dynamic-sqs-listener</sonar.projectKey>
+  <sonar.organization>bart-blommaerts</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<build>
 		<plugins>
